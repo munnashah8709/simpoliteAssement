@@ -1,0 +1,197 @@
+<html>
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+
+            overflow: hidden;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        li {
+            font-size: 19px;
+            font-family: Times;
+            color: #000000;
+            float: left;
+            margin-left: 35px;
+        }
+
+        .card-align {
+            margin: 50px;
+            background-color: #ffffff;
+            height: 350px;
+            margin-top: 40px;
+            width: 80%;
+            border-top-right-radius: 100px 50px;
+            border-bottom-left-radius: 100px 50px;
+            padding: 15px;
+        }
+
+        .nav-bar {
+            background: #ffffff;
+            background-color: #ffffff;
+            padding: 10px;
+
+        }
+
+        .floating-card {
+            display: block;
+            position: absolute;
+            z-index: 1000;
+            left: 3%;
+            top: 30%;
+
+
+
+        }
+
+        h1 {
+            font-size: 52px;
+            font-family: Times;
+            color: #ffffff;
+        }
+
+        .card-body {
+            padding: 20px;
+            background-color: rgb(221, 136, 133, .4);
+
+
+
+
+            text-decoration-color: white;
+
+        }
+
+        .btn {
+            margin-bottom: 5%;
+            border: white;
+            border-radius: 60px;
+            background-color: rgba(251, 253, 253, .4);
+            font-size: 22px;
+            font-family: Times;
+            color: #181818;
+            padding: 10px;
+            width: 160px;
+            margin-top: 80px;
+
+        }
+
+       
+
+        .card-img {
+            border-top-right-radius: 100px 50px;
+            height: 250px;
+            width: 100%;
+        }
+        .card-item{
+                display: flex;
+               margin-top: 60px;
+            }
+
+      
+        
+            
+
+
+        
+    </style>
+</head>
+
+<body style="margin: 10px; background-color: gray;">
+    <!-- nav bar start -->
+    <div class="nav-bar">
+        <ul>
+            <li>
+                H o m e
+            </li>
+            <li>
+                O r d e r
+            </li>
+            <li>F o o d </li>
+            <li>R e s t a u r a n t</li>
+            <li>T e s t i m o n i a l s</li>
+            <li>C o n t a c t U s</li>
+
+        </ul>
+    </div>
+    <!-- end -->
+    <div class="floating-card">
+        <div class="card-body">
+            <b>
+                <h3 style="    font-size: 52px;
+            font-family: Times;
+            color: #ffffff;">LOREM IPSUM
+                </h3>
+                <p style="    font-size: 16px;
+            line-height: 25px;
+    width: 400px;
+            font-family: Times;
+            color: #ffffff;">Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took
+                    a galley of type and scrambled it to make a type
+                    specimen book</p>
+            </b>
+        </div>
+    </div>
+    <!-- first card -->
+    <div style="  height: 700px;  background-image: linear-gradient(to right, #ff70bb, #ffd660);">
+
+        <div>
+            <img src="./img1.jpg" style="height: 600px; width: 100%;" alt="">
+        </div>
+
+    </div>
+
+
+    <div style="   background-image: linear-gradient(to right, #ff70bb, #ffd660);">
+        <center>
+            <h1>Order Now</h1>
+        </center>
+
+        <div class="card-item">
+            <div class="card-align">
+                <div>
+                    <img src="./img4.jpg" class="card-img" alt="">
+                    <div style="text-align: center;">
+                        <b>
+                            <h3>BURGER</h3>
+                        </b>
+                        <p>Lorem Ipsum has been the
+                            industry's standard dummy text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-align">
+                <div>
+                    <img src="./img2.jpg" class="card-img" alt="">
+                    <div style="text-align: center;">
+                        <b>
+                            <h3>PIZZA</h3>
+                        </b>
+                        <p>Lorem Ipsum has been the
+                            industry's standard dummy text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-align">
+                <div>
+                    <img src="./img3.jpg" class="card-img" alt="">
+                    <div style="text-align: center;">
+                        <b>
+                            <h3>PASTA</h3>
+                        </b>
+                        <p>Lorem Ipsum has been the
+                            industry's standard dummy text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <button class="btn"> <b style="color: #000000;">Order</b></button>
+        </center>
+    </div>
+</body>
+
+</html>
